@@ -1,0 +1,257 @@
+@font-face{
+    font-family: "Roboto";
+    src: url(../Assets/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face{
+    font-family: "Poppins";
+    src: url(../Assets/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face{
+    font-family: "Ubuntu";
+    src: url(../Assets/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+body{
+    background-color: #333333;
+    animation: fadeIn 3s;
+}
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.header{
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    box-shadow: 0px 0px 5px 1px #222;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    z-index: 1000;
+    /*align-items: center;*/
+    overflow-x: hidden;
+}
+
+.imgDiv{
+    display: none;
+    height: 30px;
+    width: 30px;
+}
+
+.menu{
+    list-style-type: none;
+    width: 120%;
+}
+
+.menu li{
+    float: left;
+    padding: 0 0 0 5%;
+    margin: 0;
+    font-size: 140%;
+}
+
+.menu li a{
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+}
+
+.menu li a:hover{
+    border-bottom: 4px solid red;
+    cursor: pointer;
+    color: red;
+}
+
+.landing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4% 0 0 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 5px 2px #222;
+    height: fit-content;
+    margin: 5% 0 0 0;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 117%;
+    overflow-x: hidden;
+}
+
+#writeup{
+    font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#button{
+    padding: 10px;
+    color: white;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 120%;
+    margin-left: 25px;
+    border-radius: 3px;
+}
+
+.hire:hover, .hire:active{
+    box-shadow: 0 0 5px 5px #8888ffff;
+}
+
+.learn:hover, .learn:active{
+    box-shadow: 0 0 5px 5px rgb(233, 97, 97);
+}
+
+.skillSet{
+    box-shadow: 0 0 5px 2px #222;
+    overflow: hidden;
+}
+
+.skills{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    /*justify-content: center;*/
+    margin: 0 0 0 1%;
+}
+
+#skilltext{
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 450%;
+}
+
+.buttons::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.tools{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width:20%;
+    background-color: #333333;
+    box-shadow: 0 0 5px 1px #222;
+    color: white;
+    font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    transition: .7s;
+}
+
+.tools:hover{
+    cursor: pointer;
+    background-color: rgb(206, 45, 45);
+    border-top: 3px solid red;
+}
+
+#Img{
+    width: 100%;
+    height: 5%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.textDiv{
+    margin-left: 20%;
+    font-size: 120%;
+}
+
+.About{
+    background-color: #333333;
+    box-shadow: 0 0 5px 2px #222;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.aboutText{
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10% 10% 2% 10%;
+    font-size: 130%;
+}
+
+.Contact{
+    background-color: #333333;
+    box-shadow: 0 0 5px 2px #222;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+.main-contact{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.socialHandles{
+    width: 50%;
+}
+
+.form{
+    width: 50%;
+    margin: 5px;
+    /*border: 1px solid white;*/
+}
+
+.comp{
+    color: white;
+}
+
+.comp:hover{
+    color: red;
+}
+
+input{
+    outline: none;
+    padding: 8px;
+    font-family: "Poppins";
+    transition: .7s;
+    border-radius: 2px;
+    width: 70%;
+    margin: 7px 0 0 50px;
+    border: none;
+    font-size: 100%;
+    color: #555;
+}
+
+input:focus{
+    box-shadow: 0 0 8px 0 #8888ffff;
+}
+
+textarea{
+    margin: 10px 0 0 50px;
+    width: 71%;
+    font-family: "Poppins";
+    padding: 5px;
+    font-size: 90%;
+    outline: none;
+    color: #555;
+}
