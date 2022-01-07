@@ -87,7 +87,7 @@ body{
 }
 
 #writeup{
-    font-family: "Ubuntu", "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #button{
@@ -145,7 +145,7 @@ body{
     height: fit-content;
     width:20%;
     background-color: #333333;
-    box-shadow: 0 0 5px 1px #222;
+    box-shadow: 0 0 5px 4px #222;
     color: white;
     font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 4%;
@@ -153,13 +153,14 @@ body{
     margin-bottom: 10px;
     border-radius: 5px;
     overflow-x: auto;
-    transition: .7s;
+    transition: .4s;
 }
 
 .tools:hover{
     cursor: pointer;
-    background-color: rgb(206, 45, 45);
-    border-top: 3px solid red;
+    color: rgb(224, 24, 24);
+    border-bottom: 3px solid red;
+    box-shadow: 0 0 5px 4px rgb(223, 92, 92);
 }
 
 #Img{
