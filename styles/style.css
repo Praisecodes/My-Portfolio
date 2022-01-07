@@ -256,3 +256,16 @@ textarea{
     outline: none;
     color: #555;
 }
+
+#btn-submit{
+    background-color: #ff2300ff;
+    color: white;
+    font-family: "Poppins", "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    width: 73%;
+    height: 10%;
+    margin: 5px 0 0 52.6px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    font-size: 130%;
+}
