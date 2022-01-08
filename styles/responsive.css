@@ -278,3 +278,83 @@
         width: 60%;
     }
 }
+
+@media screen and (max-width: 530px){
+    .mobileNav{
+        margin: 1.8% 0 0 39%;
+    }
+
+    .img{
+        margin: 0;
+    }
+
+    .contactImg{
+        margin:  1% 14%;
+    }
+
+    .text{
+        margin: 0 0 0 24%;
+    }
+}
+
+@media screen and (max-width: 510px){
+    #aboutImg{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+    }
+    #contactImg{
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .mobileNav{
+        margin: 1.8% 0 0 35%;
+    }
+
+    .text{
+        margin: 0 0 0 20%;
+    }
+
+    .socialHandles{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .mobileNav{
+        margin: 1.8% 0 0 31%;
+    }
+
+    input{
+        width: 86%;
+    }
+    textarea{
+        width: 87.2%;
+    }
+    button{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .tools{
+        width: 83%;
+        margin-left: 8%;
+    }
+
+    .textDiv{
+        margin-left: 20%;
+        font-size: 110%;
+    }
+
+    .mobileNav{
+        margin: 1.8% 0 0 27%;
+    }
+
+    .landing{
+        margin: 13% 0 0 0;
+    }
+}
