@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/style.css">
-        <!--<link rel="stylesheet" href="styles/responsive.css">-->
+        <link rel="stylesheet" href="styles/responsive.css">
         <script src="/Scripts/NavBarDisplay.js"></script>
         <title>Praise Codes</title>
         <link rel="icon" type="image/png" href="./Images/Praise Codes Logo.png" sizes="196x196">
@@ -15,7 +15,7 @@
                 <h3 style="margin: 0; padding: 0; font-size: 220%; text-shadow: 0 0 6px white;">Praise <span style="text-shadow: 0 0 8px red; color: red;">Codes</span></h3>
             </div>
 
-            <div style="width: fit-content; position: sticky; left: 68%; padding: .6% 0 0 0;">
+            <div class="full-nav" style="width: fit-content; position: sticky; left: 68%; padding: .6% 0 0 0;">
                 <ul class="menu">
                     <li><a onclick="closeBar()">HOME</a></li>
                     <li><a onclick="closeBar()">ABOUT</a></li>
@@ -24,7 +24,7 @@
             </div>
 
             <!--Navigation Bar For Mobile-->
-            <div class="imgDiv">
+            <div class="mobileNav">
                 <a onclick="toggleNavBar()"><img src="Images/NavImg.svg" alt="nav bar"  id="navBar"></a>
             </div>
             <!--End Mobile Navigation-->
@@ -40,7 +40,7 @@
                     <span style="color: #4444ffff; text-decoration: underline;">Bringing your ideas to life.</span>
                 </p><br/><br/>
 
-                <div class="buttons" style="padding: 0 0 0 2%;">
+                <div class="buttons" style="padding: 0 0 3% 2%;">
                     <a href="#" id="button" class="hire" style="background-color: #4444ffff;">
                         HIRE ME
                     </a>
@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <div>
+            <div id="avatar">
                 <img src="./Images/avatar.png" alt="Avatar">
             </div>
         </div><br/><br/>
@@ -152,7 +152,7 @@
         <div class="About">
             <div class="img" style="color: white;">
                 <img src="./Images/icons8-about-500.png" alt="About Image"><br/>
-                <h2 style="margin: 0 0 0 32%;padding: 0;font-size: 370%;font-variant: small-caps;">About</h2>
+                <h2 id="abth2">About</h2>
             </div>
 
             <div class="aboutText">
@@ -176,7 +176,7 @@
         <div class="Contact">
             <div class="contactImg" >
                 <img src="./Images/Contact.png" alt="Contact Image" style="width: 370px; height: 370px;"><br/>
-                <h2 style="margin: 0 0 0 27%;padding: 0;font-size: 320%;font-variant: small-caps;">Contact Me</h2>
+                <h2 id="conh">Contact Me</h2>
             </div>
 
             <div class="main-contact" style="margin-left: 4%;">
