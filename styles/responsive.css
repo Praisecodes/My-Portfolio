@@ -125,4 +125,153 @@
         width: 60%;
         margin-left: 4%;
     }
+
+    .contactImg{
+        margin: 1% 25%;
+    }
+
+    .img{
+        margin: 0 0 0 18%;
+    }
+
+    .text{
+        margin: 0 0 0 33%;
+    }
+
+    .landing{
+        margin: 8% 0 0 0;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .form{
+        width: 55%;
+        margin-left: 10%;
+    }
+    .socialHandles{
+        width: 35%;
+        margin: 4% 0 0 2%;
+    }
+
+    #hello{
+        font-size: 390%;
+    }
+}
+
+@media screen and (max-width: 765px){
+    .mobileNav{
+        height: 36px;
+        width: 36px;
+        margin: 1.5% 0 0 57%;
+    }
+
+    #hello{
+        font-size: 350%;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .socialHandles{
+        margin: 4% 0 0 0;
+    }
+
+    .tools{
+        width: 43%;
+        margin-left: 4.2%;
+    }
+
+    .img{
+        margin: 0 0 0 13%;
+    }
+    #abth2{
+        margin: 0 0 0 30%;
+    }
+}
+
+@media screen and (max-width: 715px){
+    .mobileNav{
+        margin: 1.5% 0 0 54%;
+    }
+
+    .main-contact{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #conh{
+        margin: 0 0 0 18%;
+    }
+
+    .socialHandles{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 665px){
+    .mobileNav{
+        margin: 1.5% 0 0 51%;
+    }
+
+    #conh{
+        margin: 0 0 0 13%;
+    }
+}
+
+@media screen and (max-width: 625px){
+    #conh{
+        margin: 0 0 0 9%;
+    }
+
+    .img{
+        margin: 0 0 0 9%;
+    }
+
+    .mobileNav{
+        margin: 1.5% 0 0 48%;
+    }
+
+    .text{
+        margin: 0 0 0 27%;
+    }
+
+    .form{
+        width: 65%;
+    }
+
+    .contactImg{
+        margin: 1% 20%;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .landing{
+        margin: 10% 0 0 0;
+    }
+
+    .mobileNav{
+        margin: 1.8% 0 0 44%;
+    }
+
+    .img{
+        margin: 0 0 0 5%;
+    }
+
+    .contactImg{
+        margin:  1% 17%;
+    }
+
+    .form{
+        width: 70%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .img{
+        margin: 0 0 0 2%;
+    }
+    .form{
+        width: 85%;
+        margin: 0 0 0 2%;
+    }
 }
