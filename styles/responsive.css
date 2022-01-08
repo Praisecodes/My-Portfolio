@@ -1,0 +1,64 @@
+@media screen and (max-width: 1245px){
+    #avatar{
+        display: none;
+    }
+    .landing{
+        font-size: 132%;
+        margin: 6% 0 0 0;
+    }
+    .WriteUp{
+        margin: 3% 4%;
+    }
+    .form{
+        margin: 2%;
+    }
+    input{
+        width: 75%;
+    }
+    textarea{
+        width: 76.2%;
+    }
+    button{
+        width: 78%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .Contact{
+        flex-direction: column;
+    }
+    input{
+        width: 60%;
+    }
+    textarea{
+        width: 61.2%;
+    }
+    button{
+        width: 63%;
+    }
+    .contactImg{
+        margin: 1% 29%;
+    }
+    #conh{
+        margin: 0 0 0 12%;
+    }
+
+    .About{
+        flex-direction: column;
+    }
+    .img{
+        margin: 0 0 0 26%;
+    }
+    #abth2{
+        margin: 0 0 0 22%;
+    }
+    .aboutText{
+        margin: 5% 8% 2% 8%;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .full-nav{
+        display: none;
+    }
+}
