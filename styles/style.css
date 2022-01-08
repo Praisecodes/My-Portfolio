@@ -214,11 +214,12 @@ body{
 }
 
 .socialHandles{
-    width: 50%;
+    width: 40%;
+    margin: 50px 80px;
 }
 
 .form{
-    width: 50%;
+    width: 60%;
     margin: 5px;
     /*border: 1px solid white;*/
 }
