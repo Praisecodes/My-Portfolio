@@ -144,6 +144,10 @@ body{
     margin: 0 0 0 38%;
 }
 
+.buttons{
+    margin: 0 0 3% 2%;
+}
+
 .buttons::after{
     content: "";
     clear: both;
