@@ -61,4 +61,31 @@
     .full-nav{
         display: none;
     }
+
+    .mobileNav{
+        display: block;
+        margin: 2% 0 0 68%;
+    }
+
+    .form{
+        margin: 1%;
+    }
+    
+    input{
+        width: 75%;
+        margin-left: 0;
+    }
+    textarea{
+        width: 76.2%;
+        margin-left: 0;
+    }
+    button{
+        width: 79%;
+        margin-bottom: 5px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1090px){
+
 }
