@@ -86,6 +86,43 @@
     }
 }
 
-@media screen and (max-width: 1090px){
+@media screen and (max-width: 1050px){
+    .tools{
+        width: 27%;
+        margin-left: 4.2%;
+    }
+}
 
+@media screen and (max-width: 955px){
+    .mobileNav{
+        margin: 2% 0 0 64%;
+    }
+
+    .img{
+        margin: 0 0 0 24%;
+    }
+    input{
+        width: 78%;
+    }
+    textarea{
+        width: 79.2%;
+    }
+    button{
+        width: 82%;
+    }
+}
+
+@media screen and (max-width: 845px){
+    .mobileNav{
+        margin: 2% 0 0 60%;
+    }
+
+    .socialHandles{
+        width: 30%;
+        margin: 4% 0 0 2%;
+    }
+    .form{
+        width: 60%;
+        margin-left: 4%;
+    }
 }
