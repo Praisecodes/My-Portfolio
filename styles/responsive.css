@@ -440,3 +440,53 @@
         margin: 4% 0 0 11%;
     }
 }
+
+@media screen and (max-width: 315px){
+    #conh{
+        font-size: 230%;
+    }
+
+    .mobileNav{
+        margin: 3.5% 0 0 12%;
+    }
+
+    #hello{
+        font-size: 270%;
+    }
+
+    #button{
+        margin-left: 3%;
+        font-size: 95%;
+    }
+
+    .landing{
+        font-size: 110%;
+        margin: 15% 0 0 0;
+    }
+
+    #abth2{
+        margin: 0 0 0 20%;
+    }
+
+    .text{
+        font-size: 90%;
+    }
+
+    #praise{
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width: 290px){
+    .mobileNav{
+        margin: 3.5% 0 0 8%;
+    }
+
+    .text{
+        margin-left: 8%;
+    }
+
+    .textDiv{
+        margin-left: 10%;
+    }
+}
