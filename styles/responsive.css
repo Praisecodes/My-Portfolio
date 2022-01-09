@@ -426,10 +426,13 @@
 
 @media screen and (max-width: 360px){
     .mobileNav{
-        margin: 1.8% 0 0 15%;
+        margin: 1.8% 0 0 20%;
     }
     .socialHandles{
         width: 100%;
+    }
+    #praise{
+        font-size: 200%;
     }
 }
 
